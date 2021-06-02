@@ -1,0 +1,199 @@
+body {
+    background-image: url(https://wallpaperaccess.com/full/1358605.jpg);
+}
+
+.hood {
+    width: 500px;
+    height: 550px;
+    border: solid 1px black;
+    background-color:cornflowerblue;
+    border-radius: 80%;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    position: fixed;
+    z-index: 1;
+    left: 15%;
+    top: 500px;
+}
+
+.hoodFace {
+    width: 500px;
+    height: 550px;
+    border: solid 1px black;
+    background-color:cornflowerblue;
+    border-radius: 80%;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    position: fixed;
+    z-index: 1;
+    left: 15%;
+    top: 500px;
+}
+
+.hoodFin1 {
+    width: 175px;
+    height: 125px;
+    border: solid 1px black;
+    border-top-left-radius: 100%;
+    background-color: cornflowerblue;
+    position: relative;
+    z-index: 0;
+    right: 30%;
+    top: 45%;
+}
+
+.hoodFin2 {
+    width: 175px;
+    height: 125px;
+    border: solid 1px black;
+    border-top-right-radius: 100%;
+    background-color: cornflowerblue;
+    position: relative;
+    z-index: 0;
+    left: 95%;
+    top: 20%;
+}
+
+#hoodLeftEye {
+    width: 20px;
+    height: 20px;
+    border: solid 1px black;
+    border-radius: 50%;
+    background-color: gray;
+    position: relative;
+    z-index: 3;
+    top: 45px;
+    left: 27%;
+}
+
+#hoodRightEye {
+    width: 20px;
+    height: 20px;
+    border: solid 1px black;
+    border-radius: 50%;
+    background-color: gray;
+    position: relative;
+    z-index: 3;
+    top: 30px;
+    left: 70%;
+}
+
+#hoodNostril1 {
+    width: 1px;
+    height: 8px;
+    border: solid 1px black;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+    z-index: 1;
+    top: 5%;
+    left: 48%;
+}
+
+#hoodNostril2 {
+    width: 1px;
+    height: 8px;
+    border: solid 1px black;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+    z-index: 1;
+    top: 18px;
+    left: 51%;
+}
+
+#hoodLip {
+    width: 375px;
+    height: 450px;
+    border: solid 50px white;
+    border-radius: 100%;
+    position: relative;
+    z-index: 2;
+    top: 5%;
+    left: 13px;
+}
+
+#hoodTooth {
+    width: 0;
+    height: 0;
+    border-left: solid 20px transparent;
+    border-right: solid 20px transparent;
+    border-top: solid 40px white;
+    position: relative;
+    z-index: 2;
+    top: 156px;
+    left: 325px;
+}
+
+#face {
+    width: 350px;
+    height: 350px;
+    background-color: wheat;
+    border-radius: 50%;
+    position: relative;
+    z-index: 2;
+    right: 180px;
+    top: 50px;
+}
+
+#mouth {
+    width: 100px;
+    height: 5px;
+    border-bottom: solid 5px black;
+    border-radius: 50%;
+    position: relative;
+    top: 275px;
+    left: 125px;
+}
+
+#nose {
+    width: 3px;
+    height: 7px;
+    background: black;
+    border-radius: 50%;
+    position: relative;
+    bottom: 60px;
+    left: 45px;
+}
+
+#leftEye {
+    width: 50px;
+    height: 50px;
+    border: solid 1px black;
+    border-radius: 50%;
+    background-color: skyblue;
+    position: relative;
+    top: 110px;
+    left: 80px;
+}
+
+#leftPupil {
+    width: 7px;
+    height: 7px;
+    border-radius: 100%;
+    background-color: black;
+    position: relative;
+    top: 25px;
+    left: 22px;
+}
+
+#rightEye {
+    width: 50px;
+    height: 50px;
+    border: solid 1px black;
+    border-radius: 50%;
+    background-color: skyblue;
+    position: relative;
+    top: 57px;
+    left: 212px;
+}
+
+#rightPupil {
+    width: 7px;
+    height: 7px;
+    border-radius: 100%;
+    background-color: black;
+    position: relative;
+    top: 25px;
+    left: 22px;
+}
